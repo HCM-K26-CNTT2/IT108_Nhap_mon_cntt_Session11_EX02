@@ -1,0 +1,10 @@
+﻿Bài 2 : Khắc phục sự cố dữ liệu trong kho thiết bị IoT 
+Phần 1: Phân tích
+* Quy tắc 1: Không sử dụng Merge Cell (gộp ô) trong bảng dữ liệu hoặc hàng tiêu đề 
+* Quy tắc 2: Không để dòng trống xen giữa bảng dữ liệu
+* Quy tắc 3: Dữ liệu không đc chứa khoảng trắng thừa hoặc vô hình.
+ 
+Phần 2: Hoàn thiện
+* Xóa bỏ hàng trống: bấm chuột phải vào số 6 chọn delete để hàng dưới được dồn lên.
+* Tạo 1 hàng kế bên hàng Trạng thái xong dùng: =TRIM(E5), =TRIM(E6),... để xóa bỏ khoảng trắng vô hình
+* Cuối cùng: Control + Shift + L để bật Filter xong lọc ra những hàng hỏng không có khoảng trắng vô hình
